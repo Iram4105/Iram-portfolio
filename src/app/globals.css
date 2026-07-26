@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html.light {
+  color-scheme: light;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-bg text-white font-body transition-colors duration-300;
+}
+
+html.light body {
+  @apply bg-bg-light text-slate-900;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.35);
+  color: white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#2563eb, #7c3aed);
+  border-radius: 999px;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(30, 41, 59, 0.5);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+html.light .glass {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #2563eb, #06b6d4 55%, #7c3aed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-6xl px-6 sm:px-8 lg:px-10;
+}
+
+.card-tilt {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #06b6d4;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom cursor (desktop only, hidden if reduced motion or touch) */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(6, 182, 212, 0.9);
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease, background 0.2s ease;
+  mix-blend-mode: difference;
+}
+
+.custom-cursor.grow {
+  width: 44px;
+  height: 44px;
+  background: rgba(6, 182, 212, 0.15);
+}
+
+@media (hover: none) {
+  .custom-cursor {
+    display: none;
+  }
+}
+
+/* Light mode overrides — the base utility classes below are authored for the
+   dark theme by default, so we remap them when html.light is active. */
+html.light .text-white {
+  color: #0f172a;
+}
+html.light .text-white\/80,
+html.light .text-white\/85,
+html.light .text-white\/90,
+html.light .text-white\/70 {
+  color: #334155;
+}
+html.light .text-muted {
+  color: #64748b;
+}
+html.light .border-white\/10 {
+  border-color: rgba(15, 23, 42, 0.08);
+}
+html.light .bg-white\/5 {
+  background-color: rgba(15, 23, 42, 0.04);
+}
+html.light .bg-white\/10 {
+  background-color: rgba(15, 23, 42, 0.08);
+}
+html.light .bg-grid-glow {
+  opacity: 0.6;
+}
+html.light ::-webkit-scrollbar-thumb {
+  background: linear-gradient(#2563eb, #06b6d4);
+}
+
