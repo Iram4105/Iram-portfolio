@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, ArrowDown, Download, Code2 } from "lucide-react";
 import ParticleBackground from "./ParticleBackground";
+import HeroSceneWrapper from "./HeroSceneWrapper";
 import { personal } from "@/lib/data";
 
 function useTypewriter(words: string[], speed = 55, pause = 1600) {
@@ -107,14 +108,15 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        {/* Signature element: floating IDE / terminal window */}
+        {/* Signature code window with lazy 3D scene */}
         <motion.div
           initial={{ opacity: 0, scale: 0.92, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
-          className="relative mx-auto w-full max-w-md animate-float"
+          className="relative mx-auto w-full max-w-md"
         >
-          <div className="glass rounded-2xl shadow-2xl shadow-black/40 overflow-hidden">
+          <div className="absolute inset-x-0 -top-20 -bottom-10 opacity-80 pointer-events-none"><HeroSceneWrapper /></div>
+          <div className="relative glass rounded-2xl shadow-2xl overflow-hidden animate-float">
             <div className="flex items-center gap-2 border-b border-white/10 px-4 py-3">
               <span className="h-3 w-3 rounded-full bg-red-400/80" />
               <span className="h-3 w-3 rounded-full bg-yellow-400/80" />
