@@ -8,6 +8,7 @@ const config: Config = {
       bg: { DEFAULT: "#142B25", light: "#F4F6EF" },
       surface: { DEFAULT: "#234337", light: "#FFFFFF" },
       muted: "#9AADA0",
+      foreground: "var(--foreground)",
     },
     fontFamily: { heading:["var(--font-poppins)","sans-serif"], body:["var(--font-inter)","sans-serif"], mono:["var(--font-mono)","monospace"] },
     backgroundImage: {
