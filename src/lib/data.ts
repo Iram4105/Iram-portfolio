@@ -175,7 +175,7 @@ export const about = {
 
 
 
-    { label: "LeetCode Problems Solved", value: "250", suffix: "+" },
+    { label: "LeetCode Problems Solved", value: "300", suffix: "+" },
 
 
 
@@ -183,7 +183,7 @@ export const about = {
 
 
 
-    { label: "Certifications", value: "4", suffix: "" },
+    { label: "Certifications", value: "5", suffix: "" },
 
 
 
@@ -788,195 +788,75 @@ export const projects: Project[] = [
 
 
 export const experience = [
-
   {
-    title: "Academic Projects",
-    period: "2023 – Present",
+    title: "Summer Training Intern – Java Full Stack (Project Based Learning)",
+    organization: "Meerut Institute of Engineering & Technology (MIET), Meerut",
+    period: "June 2026 – July 2026",
+    duration: "120 Hours",
+    mode: "On-site",
     description:
-      "Independently designed and built a 4-tier Java web application (Smart Complaint Portal) covering the full stack from UI to database.",
+      "Completed an intensive 120-hour, industry-oriented Java Full Stack internship in a project-based learning format.",
+    highlights: [
+      "Built the Smart Complaint Portal, a role-based full stack application, using Java, Spring Boot, Spring MVC, Hibernate/JPA, JSP and MySQL.",
+      "Validated REST APIs using Postman.",
+      "Used Git, GitHub and Maven for version control and builds while following SDLC and Agile practices.",
+    ],
   },
-
-  {
-    title: "Personal / Independent Projects",
-    period: "2023 – Present",
-    description:
-      "Led multi-phase project coordination for the Banking Management System, managing design, development, and presentation milestones.",
-  },
-
 ];
 
-
-
 export const certifications = [
-
-
-
-  {
-
-
-
-    title: "MongoDB Certified Developer",
-
-
-
-    issuer: "MongoDB",
-
-
-
-    detail: "Database design, querying, and aggregation pipelines for scalable applications.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Cisco Networking Certification",
-
-
-
-    issuer: "Cisco",
-
-
-
-    detail: "TCP/IP protocols, routing fundamentals, and network troubleshooting using Cisco Packet Tracer.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Software Engineer Intern",
-
-
-
-    issuer: "HackerRank",
-
-
-
-    detail: "HackerRank certification recognizing software engineering skills and problem-solving ability.",
-
-
-
-  },
-
-
-
+  {
+    title: "Wipro Certified in Java",
+    issuer: "Wipro TalentNext",
+    detail: "Java certification completed through Wipro TalentNext in 2026.",
+  },
+  {
+    title: "MongoDB Certified Developer",
+    issuer: "MongoDB",
+    detail: "Certification covering MongoDB development concepts.",
+  },
+  {
+    title: "Cisco Networking Certification",
+    issuer: "Cisco",
+    detail: "Networking certification; practical networking experience includes Cisco Packet Tracer.",
+  },
   {
     title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
     issuer: "Oracle",
-    detail: "Professional certification in generative AI concepts and Oracle Cloud Infrastructure.",
+    detail: "Professional certification in generative AI and Oracle Cloud Infrastructure.",
+  },
+  {
+    title: "HackerRank Software Engineer Intern",
+    issuer: "HackerRank",
+    detail: "HackerRank Software Engineer Intern certification.",
   },
 ];
 
-
-
 export const trainings = [
-
-
-
-  {
-
-
-
-    title: "ICT Academy – Cognizant Foundation “Tech4All” CSR Training Program",
-
-
-
-    provider: "Cognizant Foundation",
-
-
-
-    detail: "Ongoing ICT training program focused on ICT skills and industry-oriented learning.",
-
-
-
-    status: "Ongoing",
-
-
-
-  },
-
-
-
+  {
+ export const achievements = [
+  {
+    title: "300+ LeetCode Problems",
+    detail: "Solved 300+ problems on LeetCode across arrays, trees, graphs, binary search, dynamic programming and hashing.",
+  },
+  {
+    title: "Strong Academic Record",
+    detail: "Maintained a CGPA of 8.78/10 through the 7th semester of B.Tech in a competitive engineering programme.",
+  },
+  {
+    title: "Industry Certifications",
+    detail: "Earned certifications in Java through Wipro TalentNext, MongoDB development, Cisco networking, Oracle Cloud Generative AI, and software engineering through HackerRank.",
+  },
+  {
+    title: "Full-Stack Internship Project",
+    detail: "Completed a 120-hour Java Full Stack internship at MIET by developing the role-based Smart Complaint Portal.",
+  },
+  {
+    title: "Research Paper Accepted – IEEE ICACECT-2027",
+    detail: "Research paper on explainable deep learning for brain tumor MRI analysis accepted for presentation at the First IEEE International Conference on Advancements in Computer Engineering and Communication Technologies (ICACECT-2027).",
+  },
 ];
-
-
-
-
-
-
-
-export const achievements = [
-
-
-
-  {
-
-
-
-    title: "250+ LeetCode Problems",
-
-
-
-    detail: "Solved 250+ problems on LeetCode across arrays, strings, linked lists, trees, graphs, binary search, dynamic programming, hashing, and stacks/queues.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Strong Academic Record",
-
-
-
-    detail: "Maintained a CGPA of 8.78/10 through the 7th semester of B.Tech in a competitive engineering programme.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Industry Certifications",
-
-
-
-    detail: "Completed industry certifications from MongoDB, Cisco Networking, and HackerRank alongside full-time academic coursework.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Full-Stack Independent Build",
-
-
-
-    detail: "Independently designed and built a 4-tier Java web application (Smart Complaint Portal) covering the full stack from UI to database.",
+ll stack from UI to database.",
 
 
 
