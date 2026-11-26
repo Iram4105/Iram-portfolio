@@ -189,3 +189,8 @@ html.light .text-secondary, html:not(.dark) .text-secondary { color:#426C51; }
 html.light .text-accent, html:not(.dark) .text-accent { color:#856B39; }
 .dark .text-primary { color:#A8C6A0; }
 html.light .text-primary, html:not(.dark) .text-primary { color:#315C4B; }
+
+html.light .from-surface, html:not(.dark) .from-surface { --tw-gradient-from:#E4EBDD var(--tw-gradient-from-position); --tw-gradient-to:rgba(228,235,221,0) var(--tw-gradient-to-position); }
+html.light .to-bg, html:not(.dark) .to-bg { --tw-gradient-to:#F4F6EF var(--tw-gradient-to-position); }
+html.light .bg-bg, html:not(.dark) .bg-bg { background-color:#F4F6EF; }
+html.light .bg-surface, html:not(.dark) .bg-surface { background-color:#E4EBDD; }
