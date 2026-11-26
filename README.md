@@ -1,6 +1,6 @@
 # Iram — Portfolio
 
-A premium interactive portfolio using an **Emerald × Sage × Champagne** visual system, with dark and light themes, a CSS 3D laptop hero, Framer Motion interactions, and a technology-focused project showcase. Built with **Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion**.
+A premium interactive portfolio presenting **Software Development and AI/ML** interests, using an **Emerald × Sage × Champagne** visual system, dark and light themes, a CSS 3D laptop hero, Framer Motion interactions, and a technology-focused project showcase. Built with **Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion**.
 
 All resume-derived copy lives in one place: `src/lib/data.ts`. Anywhere the resume didn't provide a detail (e.g. LeetCode handle, project GitHub URLs, challenges faced), the field is clearly marked `PLACEHOLDER` in that file and in the on-page copy — search the codebase for `PLACEHOLDER` to find every one before launch.
 
