@@ -99,7 +99,7 @@ export const about = {
 
 
 
-    "Computer Science undergraduate (CGPA 8.61/10, 4th Year) with hands-on experience across software development, AI/ML, databases, APIs, and web applications through academic and independent projects.",
+    "Computer Science undergraduate (CGPA 8.78/10, 4th Year) with hands-on experience across software development, AI/ML, databases, APIs, and web applications through academic and independent projects.",
 
 
 
@@ -171,7 +171,7 @@ export const about = {
 
 
 
-    { label: "CGPA", value: "8.61", suffix: "/10" },
+    { label: "CGPA", value: "8.78", suffix: "/10" },
 
 
 
@@ -219,7 +219,7 @@ export const education = [
 
 
 
-    detail: "CGPA: 8.61 / 10  •  Currently in 7th Semester (4th Year)",
+    detail: "CGPA: 8.78 / 10  •  Currently in 7th Semester (4th Year)",
 
 
 
@@ -944,7 +944,7 @@ export const achievements = [
 
 
 
-    detail: "Maintained a CGPA of 8.61/10 through the 7th semester of B.Tech in a competitive engineering programme.",
+    detail: "Maintained a CGPA of 8.78/10 through the 7th semester of B.Tech in a competitive engineering programme.",
 
 
 
