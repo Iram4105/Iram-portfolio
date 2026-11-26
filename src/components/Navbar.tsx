@@ -11,7 +11,7 @@ const links = [
   { href: "#education", label: "Education" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
+  { href: "#experience", label: "Experience & Training" },
   { href: "#certifications", label: "Certifications" },
   { href: "#achievements", label: "Achievements" },
   { href: "#profiles", label: "Coding Profiles" },
