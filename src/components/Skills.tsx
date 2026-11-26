@@ -50,7 +50,7 @@ export default function Skills() {
                   {category.skills.map((skill) => (
                     <span
                       key={skill.name}
-                      className="rounded-lg border border-[var(--border)] bg-[var(--background)]/70 px-2.5 py-1.5 text-[11px] font-medium text-foreground transition-colors hover:border-accent/60"
+                      className="rounded-lg border border-[var(--border)] bg-[var(--background)] px-2.5 py-1.5 text-[11px] font-medium text-foreground transition-colors hover:border-accent/60"
                     >
                       {skill.name}
                     </span>
