@@ -51,7 +51,7 @@ export default function Hero() {
         >
           <span className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 font-mono text-xs font-medium text-secondary">
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-secondary" />
-            Open to Software Development &amp; AI/ML opportunities
+            Fresher | B.Tech CSE '27 | Open to Entry-Level Tech Roles
           </span>
 
           <h1 className="mt-6 font-heading text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
