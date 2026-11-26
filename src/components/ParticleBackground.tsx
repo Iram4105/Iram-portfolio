@@ -19,7 +19,7 @@ export default function ParticleBackground() {
     let height = (canvas.height = canvas.offsetHeight);
 
     const COUNT = Math.min(70, Math.floor((width * height) / 18000));
-    const colors = ["#2563EB", "#06B6D4", "#7C3AED"];
+    const colors = ["#A8C6A0", "#B89B65", "#6D9278"];
 
     type P = { x: number; y: number; vx: number; vy: number; r: number; c: string };
     const particles: P[] = Array.from({ length: COUNT }, () => ({
@@ -56,7 +56,7 @@ export default function ParticleBackground() {
           const dist = Math.sqrt(dx * dx + dy * dy);
           if (dist < 120) {
             ctx.beginPath();
-            ctx.strokeStyle = "rgba(148,163,184,0.12)";
+            ctx.strokeStyle = "rgba(168,198,160,0.18)";
             ctx.lineWidth = 1;
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(q.x, q.y);
