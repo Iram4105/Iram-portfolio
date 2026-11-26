@@ -22,15 +22,15 @@ export const personal = {
 
 
 
-  role: "Aspiring Software Engineer",
+  role: "Software Development & AI/ML",
 
 
 
   roles: [
+    "Software Developer",
     "AI/ML Enthusiast",
-    "Backend Developer",
     "Software Engineer",
-    "B.Tech CSE Student",
+    "Machine Learning Developer",
   ],
 
 
@@ -107,7 +107,7 @@ export const about = {
 
 
 
-    "Open to Software Engineer, AI/ML, Full-Stack, Backend, and other technology roles where I can apply problem-solving, programming, software development, and machine learning skills while continuing to learn and grow.",
+    "Open to Software Development, AI/ML, and Full-Stack opportunities where I can apply problem-solving, programming, and machine learning skills while continuing to learn and grow.",
 
 
 
