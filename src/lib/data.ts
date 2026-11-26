@@ -771,7 +771,7 @@ export const projects: Project[] = [
     challenges: "Combining content-based and collaborative signals while preparing structured movie data for recommendation generation.",
     learned: "Gained practical experience in recommender systems, feature engineering, similarity measures, APIs, and ML application interfaces.",
     outcome: "An interactive movie recommendation application combining machine-learning techniques with a web interface.",
-    github: "https://github.com/Iram4105",
+    github: "https://github.com/Iram4105/Movie-Recommendation-System",
     demo: null,
     image: "/projects/film-recommendation.svg",
   },
