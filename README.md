@@ -1,6 +1,6 @@
 # Iram — Portfolio
 
-A premium, modern, dark-themed (with light mode) portfolio built with **Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion**, generated entirely from Iram's resume.
+A premium interactive portfolio using an **Emerald × Sage × Champagne** visual system, with dark and light themes, a CSS 3D laptop hero, Framer Motion interactions, and a technology-focused project showcase. Built with **Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion**.
 
 All resume-derived copy lives in one place: `src/lib/data.ts`. Anywhere the resume didn't provide a detail (e.g. LeetCode handle, project GitHub URLs, challenges faced), the field is clearly marked `PLACEHOLDER` in that file and in the on-page copy — search the codebase for `PLACEHOLDER` to find every one before launch.
 
@@ -52,10 +52,10 @@ npm run start   # serve the production build locally
 
 ## What's implemented against the brief
 
-- **Hero** — name, role, typewriter-animated role list, tagline, resume download, contact CTA, social icons, animated particle network + gradient blobs, and a signature floating "code editor" illustration (a Spring Boot controller snippet) instead of a generic template graphic.
+- **Hero** — name, role, typewriter-animated role list, tagline, resume download, contact CTA, social icons, sage/champagne particle network, ambient gradients, and an interactive CSS 3D laptop illustration with pointer-responsive tilt.
 - **About** — resume summary + goal rewritten as flowing copy, three strength cards, animated count-up stats.
 - **Education** — timeline layout with degree, university, CGPA, and duration.
-- **Skills** — categorized (Languages, Backend, Frontend, Databases, Frameworks, Tools, ML/AI, Cloud) animated progress-bar cards.
+- **Skills** — categorized technology cards (Languages, Backend, Frontend, Databases, Frameworks, Tools, ML/AI, Cloud), without arbitrary percentage ratings.
 - **Projects** — all 4 resume projects, each with overview, features, tech stack, an explicit challenges/what-I-learned expandable panel, screenshot placeholder, GitHub button, and Live Demo button (or a "coming soon" state when no demo exists). Includes **search** and **tag filtering**.
 - **Experience** — resume has no formal work history, so per the brief this section became "Academic & Independent Experience," sourced from the resume's own project-leadership bullet points, with Open Source/Hackathons left as placeholders.
 - **Certifications** — MongoDB and Cisco Networking, as icon cards.
