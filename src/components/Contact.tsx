@@ -39,7 +39,7 @@ export default function Contact() {
         <SectionHeading
           eyebrow="Contact"
           title="Let's build something together"
-          subtitle="Open to Software Development, AI/ML opportunities, and interesting technology collaborations — reach out any time."
+          subtitle="Open to entry-level opportunities across Software Development, AI/ML, Full-Stack Development, QA/Testing, Cloud/DevOps, and other technology teams. I’m happy to learn new tools and contribute to real-world projects."
         />
 
         <div className="grid lg:grid-cols-[0.8fr,1.2fr] gap-8">
