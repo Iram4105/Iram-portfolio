@@ -1,5 +1,6 @@
 "use client";
 
+import type { PointerEvent } from "react";
 import { useReducedMotion, useSpring, useMotionValue, motion } from "framer-motion";
 
 export default function HeroSceneWrapper() {
@@ -7,7 +8,7 @@ export default function HeroSceneWrapper() {
   const rotateX = useSpring(useMotionValue(-5), { stiffness: 90, damping: 18 });
   const rotateY = useSpring(useMotionValue(-13), { stiffness: 90, damping: 18 });
 
-  const handlePointerMove = (event: React.PointerEvent<HTMLDivElement>) => {
+  const handlePointerMove = (event: PointerEvent<HTMLDivElement>) => {
     if (reduceMotion || event.pointerType !== "mouse") return;
     const bounds = event.currentTarget.getBoundingClientRect();
     const x = (event.clientX - bounds.left) / bounds.width - 0.5;
