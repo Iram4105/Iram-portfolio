@@ -17,7 +17,7 @@ import { personal } from "@/lib/data";
 export const metadata: Metadata = {
   metadataBase: new URL(personal.siteUrl),
   title: {
-    default: `${personal.name} — Software Engineer | Backend & AI/ML`,
+    default: `${personal.name} — Software Development & AI/ML`,
     template: `%s — ${personal.name}`,
   },
   description: personal.tagline,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "Iram",
     "Software Engineer",
     "AI/ML Portfolio",
-    "Backend Developer",
+    "Software Development",
     "Software Engineer Portfolio",
     "Spring Boot Developer",
     "MIET AKTU",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: personal.siteUrl,
-    title: `${personal.name} — Software Engineer | Backend & AI/ML`,
+    title: `${personal.name} — Software Development & AI/ML`,
     description: personal.tagline,
     siteName: `${personal.name} Portfolio`,
     images: [{ url: personal.ogImage, width: 1200, height: 630, alt: personal.name }],
