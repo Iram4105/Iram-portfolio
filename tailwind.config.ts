@@ -4,7 +4,7 @@ const config: Config = {
   content: ["./src/app/**/*.{ts,tsx}","./src/components/**/*.{ts,tsx}"],
   theme: { extend: {
     colors: {
-      primary: "#315C4B", secondary: "#A8C6A0", accent: "#B89B65",
+      primary: "#6F987B", secondary: "#A8C6A0", accent: "#B89B65",
       bg: { DEFAULT: "#142B25", light: "#F4F6EF" },
       surface: { DEFAULT: "#234337", light: "#FFFFFF" },
       muted: "#9AADA0",
