@@ -73,7 +73,7 @@ export const personal = {
 
 
 
-  siteUrl: "https://iram-portfolio.vercel.app", // PLACEHOLDER: replace with real deployed domain
+  siteUrl: "https://iram-portfolio-one.vercel.app", // PLACEHOLDER: replace with real deployed domain
 
 
 
