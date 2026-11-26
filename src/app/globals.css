@@ -184,3 +184,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible 
 .dark .text-primary { color:#A8C6A0; }
 html.light .text-primary { color:#315C4B; }
 .dark .text-secondary { color:#C4D6B8; }
+
+html.light .text-secondary, html:not(.dark) .text-secondary { color:#426C51; }
+html.light .text-accent, html:not(.dark) .text-accent { color:#856B39; }
+.dark .text-primary { color:#A8C6A0; }
+html.light .text-primary, html:not(.dark) .text-primary { color:#315C4B; }
