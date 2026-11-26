@@ -57,8 +57,8 @@ npm run start   # serve the production build locally
 - **Education** — timeline layout with degree, university, CGPA, and duration.
 - **Skills** — categorized technology cards (Languages, Backend, Frontend, Databases, Frameworks, Tools, ML/AI, Cloud), without arbitrary percentage ratings.
 - **Projects** — all 4 resume projects, each with overview, features, tech stack, an explicit challenges/what-I-learned expandable panel, screenshot placeholder, GitHub button, and Live Demo button (or a "coming soon" state when no demo exists). Includes **search** and **tag filtering**.
-- **Experience** — resume has no formal work history, so per the brief this section became "Academic & Independent Experience," sourced from the resume's own project-leadership bullet points, with Open Source/Hackathons left as placeholders.
-- **Certifications** — MongoDB and Cisco Networking, as icon cards.
+- **Experience & Training** — Summer Training Intern – Java Full Stack (Project Based Learning) at MIET (June–July 2026, 120 hours, on-site), plus ICT Academy – Cognizant Foundation Tech4All CSR Training Program (October 2026).
+- **Certifications** — Wipro Certified in Java (Wipro TalentNext), MongoDB Certified Developer, Cisco Networking Certification, Oracle Cloud Infrastructure 2025 Certified Generative AI Professional, and HackerRank Software Engineer Intern.
 - **Achievements** — the four resume achievement bullets as cards.
 - **Coding Profiles** — GitHub (`Iram4105`) and LinkedIn are real; LeetCode and GeeksforGeeks are placeholders (resume didn't include them).
 - **Contact** — email, phone, location, socials, and a working front-end form (see note below on wiring it to a backend).
