@@ -39,7 +39,7 @@ export default function Contact() {
         <SectionHeading
           eyebrow="Contact"
           title="Let's build something together"
-          subtitle="Open to Java backend internships, SDE roles, and interesting collaborations — reach out any time."
+          subtitle="Open to Software Development, AI/ML opportunities, and interesting technology collaborations — reach out any time."
         />
 
         <div className="grid lg:grid-cols-[0.8fr,1.2fr] gap-8">
