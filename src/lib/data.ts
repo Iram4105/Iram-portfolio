@@ -22,24 +22,22 @@ export const personal = {
 
 
 
-  role: "Software Development & AI/ML",
+  role: "Aspiring Software Engineer",
 
 
 
   roles: [
     "Software Developer",
+    "Aspiring Software Engineer",
     "AI/ML Enthusiast",
-    "Software Engineer",
-    "Machine Learning Developer",
+    "Full-Stack Developer",
+    "Graduate Engineer Trainee",
+    "Technology Enthusiast",
   ],
 
 
 
-  tagline:
-
-
-
-    "Building software, AI/ML systems, and full-stack applications while staying open to diverse software engineering opportunities.",
+  tagline: "Final-year B.Tech CSE student (2027) building practical applications across software development, full-stack engineering, and AI/ML. Actively seeking entry-level technology opportunities and eager to learn, contribute, and grow across teams.",
 
 
 
@@ -95,19 +93,11 @@ export const about = {
 
 
 
-  summary:
+  summary: "Final-year B.Tech Computer Science student (2027) and aspiring software engineer with hands-on project and internship training experience in software development, full-stack applications, databases, REST APIs, and AI/ML. Strong foundation in programming, problem-solving, and computer science fundamentals, supported by an 8.61/10 CGPA and 300+ LeetCode problems solved.",
 
 
 
-    "Computer Science undergraduate (CGPA 8.61/10, 4th Year) with hands-on experience across software development, AI/ML, databases, APIs, and web applications through academic and independent projects.",
-
-
-
-  goal:
-
-
-
-    "Open to Software Development, AI/ML, and Full-Stack opportunities where I can apply problem-solving, programming, and machine learning skills while continuing to learn and grow.",
+  goal: "Open to entry-level opportunities across Software Development, Full-Stack Development, AI/ML, QA/Testing, Cloud/DevOps, and Graduate Engineer Trainee roles. Flexible about technology stacks, enthusiastic about learning, and ready to contribute wherever programming, analytical thinking, and problem-solving are valued.",
 
 
 
@@ -834,14 +824,22 @@ export const certifications = [
 
 export const trainings = [
   {
- export const achievements = [
+    title: "Tech4All CSR Training Program",
+    provider: "ICT Academy – Cognizant Foundation",
+    period: "October 2026",
+    status: "Ongoing",
+    detail: "Trainee in the ICT Academy – Cognizant Foundation “Tech4All” CSR Training Program.",
+  },
+];
+
+export const achievements = [
   {
     title: "300+ LeetCode Problems",
     detail: "Solved 300+ problems on LeetCode across arrays, trees, graphs, binary search, dynamic programming and hashing.",
   },
   {
     title: "Strong Academic Record",
-    detail: "Maintained a CGPA of 8.61/10 through the 7th semester of B.Tech in a competitive engineering programme.",
+    detail: "Maintained a CGPA of 8.61/10 through the 7th semester of B.Tech.",
   },
   {
     title: "Industry Certifications",
@@ -856,37 +854,6 @@ export const trainings = [
     detail: "Research paper on explainable deep learning for brain tumor MRI analysis accepted for presentation at the First IEEE International Conference on Advancements in Computer Engineering and Communication Technologies (ICACECT-2027).",
   },
 ];
-ll stack from UI to database.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Project Leadership",
-
-
-
-    detail: "Led multi-phase project coordination for the Banking Management System, managing design, development, and presentation milestones.",
-
-
-
-  },
-
-
-
-];
-
-
-
-
-
-
 
 export const codingProfiles = [
 
