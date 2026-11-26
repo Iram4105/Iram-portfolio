@@ -17,32 +17,35 @@ import { personal } from "@/lib/data";
 export const metadata: Metadata = {
   metadataBase: new URL(personal.siteUrl),
   title: {
-    default: `${personal.name} — Java Backend Developer & Software Engineer`,
+    default: `${personal.name} — Aspiring Software Engineer | 2027 Graduate`,
     template: `%s — ${personal.name}`,
   },
   description: personal.tagline,
   keywords: [
     "Iram",
-    "Java Developer",
-    "Backend Developer",
-    "Software Engineer Portfolio",
-    "Spring Boot Developer",
+    "Fresher 2027",
+    "Entry-Level Software Engineer",
+    "Graduate Engineer Trainee",
+    "Software Development",
+    "Full-Stack Development",
+    "AI/ML",
+    "QA and Automation Testing",
+    "Cloud and DevOps",
     "MIET AKTU",
-    "Java Internship",
   ],
   authors: [{ name: personal.name }],
   creator: personal.name,
   openGraph: {
     type: "website",
     url: personal.siteUrl,
-    title: `${personal.name} — Java Backend Developer & Software Engineer`,
+    title: `${personal.name} — Aspiring Software Engineer | 2027 Graduate`,
     description: personal.tagline,
     siteName: `${personal.name} Portfolio`,
     images: [{ url: personal.ogImage, width: 1200, height: 630, alt: personal.name }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${personal.name} — Java Backend Developer`,
+    title: `${personal.name} — Aspiring Software Engineer`,
     description: personal.tagline,
     images: [personal.ogImage],
   },
@@ -73,9 +76,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             position="bottom-right"
             toastOptions={{
               style: {
-                background: "#1E293B",
-                color: "#fff",
-                border: "1px solid rgba(148,163,184,0.15)",
+                background: "var(--background)",
+                color: "var(--foreground)",
+                border: "1px solid var(--border)",
               },
             }}
           />

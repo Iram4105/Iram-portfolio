@@ -1,6 +1,6 @@
 # Iram — Portfolio
 
-A premium, modern, dark-themed (with light mode) portfolio built with **Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion**, generated entirely from Iram's resume.
+A premium interactive portfolio for a **B.Tech CSE 2027 fresher and aspiring software engineer**, open to entry-level opportunities across **Software Development, Full-Stack Development, AI/ML, QA/Testing, Cloud/DevOps, and Graduate Engineer Trainee roles**. It uses an **Emerald × Sage × Champagne** visual system, dark and light themes, a CSS 3D laptop hero, Framer Motion interactions, and a technology-focused project showcase. Built with **Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion**.
 
 All resume-derived copy lives in one place: `src/lib/data.ts`. Anywhere the resume didn't provide a detail (e.g. LeetCode handle, project GitHub URLs, challenges faced), the field is clearly marked `PLACEHOLDER` in that file and in the on-page copy — search the codebase for `PLACEHOLDER` to find every one before launch.
 
@@ -52,15 +52,15 @@ npm run start   # serve the production build locally
 
 ## What's implemented against the brief
 
-- **Hero** — name, role, typewriter-animated role list, tagline, resume download, contact CTA, social icons, animated particle network + gradient blobs, and a signature floating "code editor" illustration (a Spring Boot controller snippet) instead of a generic template graphic.
+- **Hero** — name, role, typewriter-animated role list, tagline, resume download, contact CTA, social icons, sage/champagne particle network, ambient gradients, and an interactive CSS 3D laptop illustration with pointer-responsive tilt.
 - **About** — resume summary + goal rewritten as flowing copy, three strength cards, animated count-up stats.
 - **Education** — timeline layout with degree, university, CGPA, and duration.
-- **Skills** — categorized (Languages, Backend, Frontend, Databases, Frameworks, Tools, ML/AI, Cloud) animated progress-bar cards.
-- **Projects** — all 4 resume projects, each with overview, features, tech stack, an explicit challenges/what-I-learned expandable panel, screenshot placeholder, GitHub button, and Live Demo button (or a "coming soon" state when no demo exists). Includes **search** and **tag filtering**.
-- **Experience** — resume has no formal work history, so per the brief this section became "Academic & Independent Experience," sourced from the resume's own project-leadership bullet points, with Open Source/Hackathons left as placeholders.
-- **Certifications** — MongoDB and Cisco Networking, as icon cards.
-- **Achievements** — the four resume achievement bullets as cards.
-- **Coding Profiles** — GitHub (`Iram4105`) and LinkedIn are real; LeetCode and GeeksforGeeks are placeholders (resume didn't include them).
+- **Skills** — categorized technology cards (Languages, Backend, Frontend, Databases, Frameworks, Tools, ML/AI, Cloud), without arbitrary percentage ratings.
+- **Projects** — all six featured projects, each with overview, features, tech stack, an explicit challenges/what-I-learned expandable panel, screenshot placeholder, GitHub button, and Live Demo button (or a "coming soon" state when no demo exists). Includes **search** and **tag filtering**.
+- **Experience & Training** — Summer Training Intern – Java Full Stack (Project Based Learning) at MIET (June–July 2026, 120 hours, on-site), plus ICT Academy – Cognizant Foundation Tech4All CSR Training Program (October 2026).
+- **Certifications** — Wipro Certified in Java (Wipro TalentNext), MongoDB Certified Developer, Cisco Networking Certification, Oracle Cloud Infrastructure 2025 Certified Generative AI Professional, and HackerRank Software Engineer Intern.
+- **Achievements** — five profile highlights, including 300+ LeetCode problems and an IEEE ICACECT-2027 research-paper acceptance.
+- **Coding Profiles** — GitHub (`Iram4105`), LinkedIn, and LeetCode (`Iram010`) are listed; GeeksforGeeks remains a placeholder and should be replaced with the correct profile URL.
 - **Contact** — email, phone, location, socials, and a working front-end form (see note below on wiring it to a backend).
 - **Footer** — copyright + back-to-top button (global, appears on scroll).
 - **Site-wide** — sticky navbar with scroll-spy active-section highlighting, theme switcher (dark default, light optional), scroll-progress bar, custom cursor with hover-grow, reduced-motion support, SEO metadata + Open Graph tags, dynamic `sitemap.xml` and `robots.txt`, semantic HTML, visible focus states.
@@ -69,7 +69,7 @@ npm run start   # serve the production build locally
 
 1. **Connect the contact form.** It currently simulates a submit with a toast. Wire it to [Formspree](https://formspree.io), [EmailJS](https://www.emailjs.com/), or a Next.js API route + an email provider (Resend, Nodemailer).
 2. **Fill in placeholders** in `src/lib/data.ts`:
-   - LeetCode and GeeksforGeeks profile URLs
+   - Confirm the LeetCode profile URL and replace the GeeksforGeeks placeholder with the correct profile URL
    - Real GitHub repo URLs for each project (currently guessed as `github.com/Iram4105/<project-slug>`)
    - Live demo URLs, if any projects are deployed
    - Project "challenges" write-ups (the resume didn't detail obstacles — add 1-2 real ones per project for a stronger recruiter read)

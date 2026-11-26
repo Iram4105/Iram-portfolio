@@ -27,19 +27,17 @@ export const personal = {
 
 
   roles: [
+    "Software Developer",
+    "Aspiring Software Engineer",
     "AI/ML Enthusiast",
-    "Backend Developer",
-    "Software Engineer",
-    "B.Tech CSE Student",
+    "Full-Stack Developer",
+    "Graduate Engineer Trainee",
+    "Technology Enthusiast",
   ],
 
 
 
-  tagline:
-
-
-
-    "Building software, AI/ML systems, and full-stack applications while staying open to diverse software engineering opportunities.",
+  tagline: "Final-year B.Tech CSE student (2027) building practical applications across software development, full-stack engineering, and AI/ML. Actively seeking entry-level technology opportunities and eager to learn, contribute, and grow across teams.",
 
 
 
@@ -95,19 +93,11 @@ export const about = {
 
 
 
-  summary:
+  summary: "Final-year B.Tech Computer Science student (2027) and aspiring software engineer with hands-on project and internship training experience in software development, full-stack applications, databases, REST APIs, and AI/ML. Strong foundation in programming, problem-solving, and computer science fundamentals, supported by an 8.61/10 CGPA and 300+ LeetCode problems solved.",
 
 
 
-    "Computer Science undergraduate (CGPA 8.61/10, 4th Year) with hands-on experience across software development, AI/ML, databases, APIs, and web applications through academic and independent projects.",
-
-
-
-  goal:
-
-
-
-    "Open to Software Engineer, AI/ML, Full-Stack, Backend, and other technology roles where I can apply problem-solving, programming, software development, and machine learning skills while continuing to learn and grow.",
+  goal: "Open to entry-level opportunities across Software Development, Full-Stack Development, AI/ML, QA/Testing, Cloud/DevOps, and Graduate Engineer Trainee roles. Flexible about technology stacks, enthusiastic about learning, and ready to contribute wherever programming, analytical thinking, and problem-solving are valued.",
 
 
 
@@ -175,7 +165,7 @@ export const about = {
 
 
 
-    { label: "LeetCode Problems Solved", value: "250", suffix: "+" },
+    { label: "LeetCode Problems Solved", value: "300", suffix: "+" },
 
 
 
@@ -183,7 +173,7 @@ export const about = {
 
 
 
-    { label: "Certifications", value: "4", suffix: "" },
+    { label: "Certifications", value: "5", suffix: "" },
 
 
 
@@ -771,7 +761,7 @@ export const projects: Project[] = [
     challenges: "Combining content-based and collaborative signals while preparing structured movie data for recommendation generation.",
     learned: "Gained practical experience in recommender systems, feature engineering, similarity measures, APIs, and ML application interfaces.",
     outcome: "An interactive movie recommendation application combining machine-learning techniques with a web interface.",
-    github: "https://github.com/Iram4105",
+    github: "https://github.com/Iram4105/Movie-Recommendation-System",
     demo: null,
     image: "/projects/film-recommendation.svg",
   },
@@ -788,225 +778,82 @@ export const projects: Project[] = [
 
 
 export const experience = [
-
   {
-    title: "Academic Projects",
-    period: "2023 – Present",
+    title: "Summer Training Intern – Java Full Stack (Project Based Learning)",
+    organization: "Meerut Institute of Engineering & Technology (MIET), Meerut",
+    period: "June 2026 – July 2026",
+    duration: "120 Hours",
+    mode: "On-site",
     description:
-      "Independently designed and built a 4-tier Java web application (Smart Complaint Portal) covering the full stack from UI to database.",
+      "Completed an intensive 120-hour, industry-oriented Java Full Stack internship in a project-based learning format.",
+    highlights: [
+      "Built the Smart Complaint Portal, a role-based full stack application, using Java, Spring Boot, Spring MVC, Hibernate/JPA, JSP and MySQL.",
+      "Validated REST APIs using Postman.",
+      "Used Git, GitHub and Maven for version control and builds while following SDLC and Agile practices.",
+    ],
   },
-
-  {
-    title: "Personal / Independent Projects",
-    period: "2023 – Present",
-    description:
-      "Led multi-phase project coordination for the Banking Management System, managing design, development, and presentation milestones.",
-  },
-
 ];
 
-
-
 export const certifications = [
-
-
-
-  {
-
-
-
-    title: "MongoDB Certified Developer",
-
-
-
-    issuer: "MongoDB",
-
-
-
-    detail: "Database design, querying, and aggregation pipelines for scalable applications.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Cisco Networking Certification",
-
-
-
-    issuer: "Cisco",
-
-
-
-    detail: "TCP/IP protocols, routing fundamentals, and network troubleshooting using Cisco Packet Tracer.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Software Engineer Intern",
-
-
-
-    issuer: "HackerRank",
-
-
-
-    detail: "HackerRank certification recognizing software engineering skills and problem-solving ability.",
-
-
-
-  },
-
-
-
+  {
+    title: "Wipro Certified in Java",
+    issuer: "Wipro TalentNext",
+    detail: "Java certification completed through Wipro TalentNext in 2026.",
+  },
+  {
+    title: "MongoDB Certified Developer",
+    issuer: "MongoDB",
+    detail: "Certification covering MongoDB development concepts.",
+  },
+  {
+    title: "Cisco Networking Certification",
+    issuer: "Cisco",
+    detail: "Networking certification; practical networking experience includes Cisco Packet Tracer.",
+  },
   {
     title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
     issuer: "Oracle",
-    detail: "Professional certification in generative AI concepts and Oracle Cloud Infrastructure.",
+    detail: "Professional certification in generative AI and Oracle Cloud Infrastructure.",
+  },
+  {
+    title: "HackerRank Software Engineer Intern",
+    issuer: "HackerRank",
+    detail: "HackerRank Software Engineer Intern certification.",
   },
 ];
 
-
-
 export const trainings = [
-
-
-
-  {
-
-
-
-    title: "ICT Academy – Cognizant Foundation “Tech4All” CSR Training Program",
-
-
-
-    provider: "Cognizant Foundation",
-
-
-
-    detail: "Ongoing ICT training program focused on ICT skills and industry-oriented learning.",
-
-
-
-    status: "Ongoing",
-
-
-
-  },
-
-
-
+  {
+    title: "Tech4All CSR Training Program",
+    provider: "ICT Academy – Cognizant Foundation",
+    period: "October 2026",
+    status: "Ongoing",
+    detail: "Trainee in the ICT Academy – Cognizant Foundation “Tech4All” CSR Training Program.",
+  },
 ];
-
-
-
-
-
-
 
 export const achievements = [
-
-
-
-  {
-
-
-
-    title: "250+ LeetCode Problems",
-
-
-
-    detail: "Solved 250+ problems on LeetCode across arrays, strings, linked lists, trees, graphs, binary search, dynamic programming, hashing, and stacks/queues.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Strong Academic Record",
-
-
-
-    detail: "Maintained a CGPA of 8.61/10 through the 7th semester of B.Tech in a competitive engineering programme.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Industry Certifications",
-
-
-
-    detail: "Completed industry certifications from MongoDB, Cisco Networking, and HackerRank alongside full-time academic coursework.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Full-Stack Independent Build",
-
-
-
-    detail: "Independently designed and built a 4-tier Java web application (Smart Complaint Portal) covering the full stack from UI to database.",
-
-
-
-  },
-
-
-
-  {
-
-
-
-    title: "Project Leadership",
-
-
-
-    detail: "Led multi-phase project coordination for the Banking Management System, managing design, development, and presentation milestones.",
-
-
-
-  },
-
-
-
+  {
+    title: "300+ LeetCode Problems",
+    detail: "Solved 300+ problems on LeetCode across arrays, trees, graphs, binary search, dynamic programming and hashing.",
+  },
+  {
+    title: "Strong Academic Record",
+    detail: "Maintained a CGPA of 8.61/10 through the 7th semester of B.Tech.",
+  },
+  {
+    title: "Industry Certifications",
+    detail: "Earned certifications in Java through Wipro TalentNext, MongoDB development, Cisco networking, Oracle Cloud Generative AI, and software engineering through HackerRank.",
+  },
+  {
+    title: "Full-Stack Internship Project",
+    detail: "Completed a 120-hour Java Full Stack internship at MIET by developing the role-based Smart Complaint Portal.",
+  },
+  {
+    title: "Research Paper Accepted – IEEE ICACECT-2027",
+    detail: "Research paper on explainable deep learning for brain tumor MRI analysis accepted for presentation at the First IEEE International Conference on Advancements in Computer Engineering and Communication Technologies (ICACECT-2027).",
+  },
 ];
-
-
-
-
-
-
 
 export const codingProfiles = [
 
